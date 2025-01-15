@@ -1,19 +1,14 @@
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Entity
-@Table
+@NoArgsConstructor
+@AllArgsConstructor
 public class Member {
     @Id
     private Long id;
     private String name;
     private String password;
-
-    public Member() {}
-    public Member(Long id, String name, String password) {
-        this.id = id;
-        this.name = name;
-        this.password = password;
-    }
 }
