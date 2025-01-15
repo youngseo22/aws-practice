@@ -20,5 +20,5 @@ public class Controller {
         memberRepository.save(member);
         return "ok";
     }
-
+    
 }
