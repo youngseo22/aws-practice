@@ -43,3 +43,11 @@ jar {
 	enabled = false
 }
 
+bootJar {
+	enabled = false
+}
+
+war {
+	enabled = true
+}
+
